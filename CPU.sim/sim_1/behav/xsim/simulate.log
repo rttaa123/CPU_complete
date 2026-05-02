@@ -1,0 +1,437 @@
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.uut.inst_rom_module.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.uut.data_ram_module.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+
+---- Exception Detected @135000 ns (Cycle 3) ----
+Exception Code: 0a
+PC at Exception: IF=00000000, ID=00000000, EXE=xxxxxxxx, MEM=xxxxxxxx
+CP0_Status: 00000001, CP0_Cause: 00000000
+
+---- Exception Detected @145000 ns (Cycle 4) ----
+Exception Code: 0a
+PC at Exception: IF=00000000, ID=00000000, EXE=00000000, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @155000 ns (Cycle 5) ----
+Exception Code: 0a
+PC at Exception: IF=00000000, ID=00000000, EXE=00000000, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @165000 ns (Cycle 6) ----
+Exception Code: 0a
+PC at Exception: IF=00000000, ID=00000000, EXE=00000000, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @175000 ns (Cycle 7) ----
+Exception Code: 0a
+PC at Exception: IF=00000004, ID=00000000, EXE=00000000, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @185000 ns (Cycle 8) ----
+Exception Code: 0a
+PC at Exception: IF=00000004, ID=00000000, EXE=00000000, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @195000 ns (Cycle 9) ----
+Exception Code: 0a
+PC at Exception: IF=00000004, ID=00000004, EXE=00000000, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @205000 ns (Cycle 10) ----
+Exception Code: 0a
+PC at Exception: IF=00000004, ID=00000004, EXE=00000004, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @215000 ns (Cycle 11) ----
+Exception Code: 0a
+PC at Exception: IF=00000004, ID=00000004, EXE=00000004, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @225000 ns (Cycle 12) ----
+Exception Code: 0a
+PC at Exception: IF=00000004, ID=00000004, EXE=00000004, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @235000 ns (Cycle 13) ----
+Exception Code: 0a
+PC at Exception: IF=00000008, ID=00000004, EXE=00000004, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @245000 ns (Cycle 14) ----
+Exception Code: 0a
+PC at Exception: IF=00000008, ID=00000004, EXE=00000004, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @255000 ns (Cycle 15) ----
+Exception Code: 0a
+PC at Exception: IF=00000008, ID=00000008, EXE=00000004, MEM=xxxxxxxx
+CP0_Status: 00000003, CP0_Cause: 00000028
+---- Initial Register Snapshot @600000 ns (Cycle 50) ----
+$0 : xxxxxxxx
+$1 : xxxxxxxx
+$2 : xxxxxxxx
+$3 : 7fffffff
+$8 : xxxxxxxx
+$9 : xxxxxxxx
+---- Fetch Module Signals @600000 ns ----
+PC: 00000020
+Seq PC: 00000024
+Next PC: 00000024
+Jump/Branch Taken: 0
+Jump/Branch Target: fffe20a0
+Is ERET: 0
+Exception Return Address: 00000000
+Exception Valid: 0
+Exception Handler Address: 00000000
+---- Exception Status @600000 ns ----
+has_exc: 0, exc_code: 00
+IF_exc: 0, ID_exc: 0, EXE_exc: 0, MEM_exc: 0
+CP0_Status: 00000003, CP0_Cause: 00000028
+CP0_EPC: 000xxxxx, CP0_BadVAddr: 00000000
+
+---- Exception Detected @615000 ns (Cycle 51) ----
+Exception Code: 0a
+PC at Exception: IF=00000020, ID=00000020, EXE=0000001c, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @625000 ns (Cycle 52) ----
+Exception Code: 0a
+PC at Exception: IF=00000020, ID=00000020, EXE=00000020, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @635000 ns (Cycle 53) ----
+Exception Code: 0a
+PC at Exception: IF=00000020, ID=00000020, EXE=00000020, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @645000 ns (Cycle 54) ----
+Exception Code: 0a
+PC at Exception: IF=00000020, ID=00000020, EXE=00000020, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @655000 ns (Cycle 55) ----
+Exception Code: 0a
+PC at Exception: IF=00000024, ID=00000020, EXE=00000020, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @665000 ns (Cycle 56) ----
+Exception Code: 0a
+PC at Exception: IF=00000024, ID=00000020, EXE=00000020, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @675000 ns (Cycle 57) ----
+Exception Code: 08
+PC at Exception: IF=00000024, ID=00000024, EXE=00000020, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @685000 ns (Cycle 58) ----
+Exception Code: 08
+PC at Exception: IF=00000024, ID=00000024, EXE=00000024, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @695000 ns (Cycle 59) ----
+Exception Code: 08
+PC at Exception: IF=00000024, ID=00000024, EXE=00000024, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @705000 ns (Cycle 60) ----
+Exception Code: 08
+PC at Exception: IF=00000024, ID=00000024, EXE=00000024, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @715000 ns (Cycle 61) ----
+Exception Code: 08
+PC at Exception: IF=00000028, ID=00000024, EXE=00000024, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @725000 ns (Cycle 62) ----
+Exception Code: 08
+PC at Exception: IF=00000028, ID=00000024, EXE=00000024, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @735000 ns (Cycle 63) ----
+Exception Code: 09
+PC at Exception: IF=00000028, ID=00000028, EXE=00000024, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @745000 ns (Cycle 64) ----
+Exception Code: 09
+PC at Exception: IF=00000028, ID=00000028, EXE=00000028, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @755000 ns (Cycle 65) ----
+Exception Code: 09
+PC at Exception: IF=00000028, ID=00000028, EXE=00000028, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @765000 ns (Cycle 66) ----
+Exception Code: 09
+PC at Exception: IF=00000028, ID=00000028, EXE=00000028, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @775000 ns (Cycle 67) ----
+Exception Code: 09
+PC at Exception: IF=0000002c, ID=00000028, EXE=00000028, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @785000 ns (Cycle 68) ----
+Exception Code: 09
+PC at Exception: IF=0000002c, ID=00000028, EXE=00000028, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @795000 ns (Cycle 69) ----
+Exception Code: 09
+PC at Exception: IF=0000002c, ID=0000002c, EXE=00000028, MEM=0000001c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @855000 ns (Cycle 75) ----
+Exception Code: 0a
+PC at Exception: IF=00000030, ID=00000030, EXE=0000002c, MEM=0000002c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @865000 ns (Cycle 76) ----
+Exception Code: 0a
+PC at Exception: IF=00000030, ID=00000030, EXE=00000030, MEM=0000002c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @875000 ns (Cycle 77) ----
+Exception Code: 0a
+PC at Exception: IF=00000030, ID=00000030, EXE=00000030, MEM=0000002c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @885000 ns (Cycle 78) ----
+Exception Code: 0a
+PC at Exception: IF=00000030, ID=00000030, EXE=00000030, MEM=0000002c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @895000 ns (Cycle 79) ----
+Exception Code: 0a
+PC at Exception: IF=00000034, ID=00000030, EXE=00000030, MEM=0000002c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @905000 ns (Cycle 80) ----
+Exception Code: 0a
+PC at Exception: IF=00000034, ID=00000030, EXE=00000030, MEM=0000002c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @915000 ns (Cycle 81) ----
+Exception Code: 0a
+PC at Exception: IF=00000034, ID=00000034, EXE=00000030, MEM=0000002c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Triggering External Interrupt @5095000 ns (Cycle 500) ----
+PC before interrupt: 0000014c
+Current instruction: 00000000
+CPU State: 1
+---- Cleared External Interrupt @5295000 ns (Cycle 519) ----
+
+
+---- Exception Detected @15555000 ns (Cycle 1545) ----
+Exception Code: 0a
+PC at Exception: IF=00000404, ID=00000404, EXE=00000400, MEM=00000400
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Entered Exception Handling State @15565000 ns (Cycle 1546) ----
+Exception Code: 0a (Expected: 00 for external interrupt)
+CP0_Status: 00000003
+CP0_Cause: 00000028
+CP0_EPC (saved PC): 000xxxxx (Expected close to: 0000014c)
+
+---- Exception Detected @15565000 ns (Cycle 1546) ----
+Exception Code: 0a
+PC at Exception: IF=00000404, ID=00000404, EXE=00000404, MEM=00000400
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @15575000 ns (Cycle 1547) ----
+Exception Code: 0a
+PC at Exception: IF=00000404, ID=00000404, EXE=00000404, MEM=00000400
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @15585000 ns (Cycle 1548) ----
+Exception Code: 0a
+PC at Exception: IF=00000404, ID=00000404, EXE=00000404, MEM=00000400
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @15595000 ns (Cycle 1549) ----
+Exception Code: 0a
+PC at Exception: IF=00000408, ID=00000404, EXE=00000404, MEM=00000400
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @15605000 ns (Cycle 1550) ----
+Exception Code: 0a
+PC at Exception: IF=00000408, ID=00000404, EXE=00000404, MEM=00000400
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @15615000 ns (Cycle 1551) ----
+Exception Code: 0a
+PC at Exception: IF=00000408, ID=00000408, EXE=00000404, MEM=00000400
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @15975000 ns (Cycle 1587) ----
+Exception Code: 0a
+PC at Exception: IF=00000420, ID=00000420, EXE=0000041c, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @15985000 ns (Cycle 1588) ----
+Exception Code: 0a
+PC at Exception: IF=00000420, ID=00000420, EXE=00000420, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @15995000 ns (Cycle 1589) ----
+Exception Code: 0a
+PC at Exception: IF=00000420, ID=00000420, EXE=00000420, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @16005000 ns (Cycle 1590) ----
+Exception Code: 0a
+PC at Exception: IF=00000420, ID=00000420, EXE=00000420, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @16015000 ns (Cycle 1591) ----
+Exception Code: 0a
+PC at Exception: IF=00000424, ID=00000420, EXE=00000420, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @16025000 ns (Cycle 1592) ----
+Exception Code: 0a
+PC at Exception: IF=00000424, ID=00000420, EXE=00000420, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @16035000 ns (Cycle 1593) ----
+Exception Code: 08
+PC at Exception: IF=00000424, ID=00000424, EXE=00000420, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @16045000 ns (Cycle 1594) ----
+Exception Code: 08
+PC at Exception: IF=00000424, ID=00000424, EXE=00000424, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @16055000 ns (Cycle 1595) ----
+Exception Code: 08
+PC at Exception: IF=00000424, ID=00000424, EXE=00000424, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @16065000 ns (Cycle 1596) ----
+Exception Code: 08
+PC at Exception: IF=00000424, ID=00000424, EXE=00000424, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @16075000 ns (Cycle 1597) ----
+Exception Code: 08
+PC at Exception: IF=00000428, ID=00000424, EXE=00000424, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @16085000 ns (Cycle 1598) ----
+Exception Code: 08
+PC at Exception: IF=00000428, ID=00000424, EXE=00000424, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @16095000 ns (Cycle 1599) ----
+Exception Code: 09
+PC at Exception: IF=00000428, ID=00000428, EXE=00000424, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000020
+
+---- Exception Detected @16105000 ns (Cycle 1600) ----
+Exception Code: 09
+PC at Exception: IF=00000428, ID=00000428, EXE=00000428, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @16115000 ns (Cycle 1601) ----
+Exception Code: 09
+PC at Exception: IF=00000428, ID=00000428, EXE=00000428, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @16125000 ns (Cycle 1602) ----
+Exception Code: 09
+PC at Exception: IF=00000428, ID=00000428, EXE=00000428, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @16135000 ns (Cycle 1603) ----
+Exception Code: 09
+PC at Exception: IF=0000042c, ID=00000428, EXE=00000428, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @16145000 ns (Cycle 1604) ----
+Exception Code: 09
+PC at Exception: IF=0000042c, ID=00000428, EXE=00000428, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @16155000 ns (Cycle 1605) ----
+Exception Code: 09
+PC at Exception: IF=0000042c, ID=0000042c, EXE=00000428, MEM=0000041c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @16215000 ns (Cycle 1611) ----
+Exception Code: 0a
+PC at Exception: IF=00000430, ID=00000430, EXE=0000042c, MEM=0000042c
+CP0_Status: 00000003, CP0_Cause: 00000024
+
+---- Exception Detected @16225000 ns (Cycle 1612) ----
+Exception Code: 0a
+PC at Exception: IF=00000430, ID=00000430, EXE=00000430, MEM=0000042c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @16235000 ns (Cycle 1613) ----
+Exception Code: 0a
+PC at Exception: IF=00000430, ID=00000430, EXE=00000430, MEM=0000042c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @16245000 ns (Cycle 1614) ----
+Exception Code: 0a
+PC at Exception: IF=00000430, ID=00000430, EXE=00000430, MEM=0000042c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @16255000 ns (Cycle 1615) ----
+Exception Code: 0a
+PC at Exception: IF=00000434, ID=00000430, EXE=00000430, MEM=0000042c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @16265000 ns (Cycle 1616) ----
+Exception Code: 0a
+PC at Exception: IF=00000434, ID=00000430, EXE=00000430, MEM=0000042c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @16275000 ns (Cycle 1617) ----
+Exception Code: 0a
+PC at Exception: IF=00000434, ID=00000434, EXE=00000430, MEM=0000042c
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @30915000 ns (Cycle 3081) ----
+Exception Code: 0a
+PC at Exception: IF=00000804, ID=00000804, EXE=00000800, MEM=00000800
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @30925000 ns (Cycle 3082) ----
+Exception Code: 0a
+PC at Exception: IF=00000804, ID=00000804, EXE=00000804, MEM=00000800
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @30935000 ns (Cycle 3083) ----
+Exception Code: 0a
+PC at Exception: IF=00000804, ID=00000804, EXE=00000804, MEM=00000800
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @30945000 ns (Cycle 3084) ----
+Exception Code: 0a
+PC at Exception: IF=00000804, ID=00000804, EXE=00000804, MEM=00000800
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @30955000 ns (Cycle 3085) ----
+Exception Code: 0a
+PC at Exception: IF=00000808, ID=00000804, EXE=00000804, MEM=00000800
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @30965000 ns (Cycle 3086) ----
+Exception Code: 0a
+PC at Exception: IF=00000808, ID=00000804, EXE=00000804, MEM=00000800
+CP0_Status: 00000003, CP0_Cause: 00000028
+
+---- Exception Detected @30975000 ns (Cycle 3087) ----
+Exception Code: 0a
+PC at Exception: IF=00000808, ID=00000808, EXE=00000804, MEM=00000800
+CP0_Status: 00000003, CP0_Cause: 00000028
